@@ -41,7 +41,7 @@
         }
 
         body .copyright {
-            margin-top: 104px;
+            margin-top: 64px;
             font-size: smaller;
         }
 
@@ -61,9 +61,23 @@
         }
 
         .container {
-            height: 90%;
+            min-height: 90%;
             margin-top: 5%;
             margin-bottom: 5%;
+        }
+
+        /* Small devices (landscape phones, less than 768px) */
+        @media (max-width: 767.98px) {
+            body {
+                height: 100vh;
+                text-align: center;
+            }
+            .message {
+                width: 100% !important;
+            }
+            .copyright {
+                margin-top: auto;
+            }
         }
     </style>
 </head>
