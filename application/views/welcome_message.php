@@ -22,6 +22,8 @@
     <style>
         body {
             font-family: 'Quicksand', sans-serif;
+            margin-top: 0;
+            margin-bottom: 0;
         }
 
         body img {
@@ -57,11 +59,17 @@
             background-color: #03CDAC !important;
             border-color: #03CDAC;
         }
+
+        .container {
+            height: 90%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
     </style>
 </head>
 
 <body>
-    <div class="container mt-5">
+    <div class="container">
         <div class="row">
             <div class="col">
                 <img src="<?php echo base_url('images/ios-logo.png'); ?>" alt="IOS Logo 2021">
