@@ -58,7 +58,7 @@
       <div class="row align-items-center">
         <div class="col-lg-12">
           <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="homepage">
               <img class="nonemobile" src="<?=base_url('assets/homepage')?>/img/ios-logo-desktop.svg" alt="logo" style="height: 38px" />
               <img class="noneall" src="<?=base_url('assets/homepage')?>/img/blog/ios-logo-mobile.svg" alt="" style="margin-left: 16px" />
             </a>
@@ -75,19 +75,19 @@
                 " id="navbarSupportedContent">
               <ul class="navbar-nav align-items-center">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Informatics</a>
+                  <a class="nav-link" href="<?=base_url('informatics')?>">Informatics</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Himpunan</a>
+                  <a class="nav-link" href="<?=base_url('himpunan')?>">Himpunan</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Events</a>
+                  <a class="nav-link" href="<?=base_url('event')?>">Events</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Virtual</a>
+                  <a class="nav-link" href="<?=base_url('virtual')?>">Virtual</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Information</a>
+                  <a class="nav-link" href="<?=base_url('information')?>">Information</a>
                 </li>
               </ul>
             </div>
@@ -154,7 +154,7 @@
       </div>
       <div class="row justify-content-center h-100 pt-7 g-4">
         <div class="col-sm-4 col-md-2 wow bounceInUp kotak" data-wow-delay="0.6s">
-          <a href="#">
+          <a href="<?=base_url('informatics')?>">
             <div class="
                   card
                   h-100
@@ -172,7 +172,7 @@
           </a>
         </div>
         <div class="col-sm-4 col-md-2 wow bounceInUp kotak" data-wow-delay="0.8s">
-          <a href="#">
+          <a href="<?=base_url('himpunan')?>">
             <div class="
                   card
                   h-100
@@ -190,7 +190,7 @@
           </a>
         </div>
         <div class="col-sm-4 col-md-2 wow bounceInUp kotak" data-wow-delay="1s">
-          <a href="#">
+          <a href="<?=base_url('event')?>">
             <div class="
                   card
                   h-100
@@ -208,7 +208,7 @@
           </a>
         </div>
         <div class="col-sm-4 col-md-2 wow bounceInUp kotak" data-wow-delay="1.2s">
-          <a href="#">
+          <a href="<?=base_url('virtual')?>">
             <div class="
                   card
                   h-100
@@ -226,7 +226,7 @@
           </a>
         </div>
         <div class="col-sm-4 col-md-2 wow bounceInUp kotak" data-wow-delay="1.4s">
-          <a href="#">
+          <a href="<?=base_url('information')?>">
             <div class="
                   card
                   h-100

@@ -89,7 +89,7 @@
                 <img src="<?php echo base_url('images/ios-logo.png'); ?>" alt="IOS Logo 2021">
                 <h1>Coming Soon IOS 2021!</h1>
                 <p class="message"><span>Hi Informatics👋</span><br>Saat ini website IOS tengah dalam proses pengembangan, kami akan segera umumkan apabila website ini sudah tersedia kembali di Sosial Media HMIF.</p>
-                <a class="btn btn-primary mt-3" href="https://hm.if.fsm.undip.ac.id/" role="button">Homepage HMIF</a>
+                <a class="btn btn-primary mt-3" href="<?=base_url()?>" role="button">Kembali</a>
                 <p class="copyright">Made with 💖 from Staf Ahli Kominfo 2021</p>
             </div>
         </div>
