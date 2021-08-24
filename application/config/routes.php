@@ -55,7 +55,7 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['homepage'] = 'Homepage';
 $route['informatics'] = 'Welcome';
-$route['himpunan'] = 'Welcome';
-$route['event'] = 'Welcome';
-$route['virtual'] = 'Welcome';
-$route['information'] = 'Welcome';
+$route['himpunan'] = 'NotFound';
+$route['event'] = 'NotFound';
+$route['virtual'] = 'NotFound';
+$route['information'] = 'NotFound';

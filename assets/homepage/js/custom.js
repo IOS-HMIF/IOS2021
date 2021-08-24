@@ -13,8 +13,149 @@
 
 
   // Scroll Up
+  /*------------------
+        Background Set
+    --------------------*/
+  $('.set-bg').each(function () {
+    var bg = $(this).data('setbg');
+    $(this).css('background-image', 'url(' + bg + ')');
+  });
+  /*------------------
+        Carousel Slider
+    --------------------*/
+  var hero_s = $(".hs-slider");
+  hero_s.owlCarousel({
+    loop: true,
+    margin: 0,
+    nav: true,
+    items: 1,
+    dots: false,
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    navText: ['<span class="arrow_carrot-left"></span>', '<span class="arrow_carrot-right"></span>'],
+    smartSpeed: 800,
+    autoHeight: false,
+    autoplay: true
+  });
+  /*------------------
+          Product Slider
+      --------------------*/
+  $(".product-slider").owlCarousel({
+    loop: true,
+    margin: 25,
+    nav: true,
+    items: 4,
+    dots: true,
+    navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
+    smartSpeed: 1200,
+    autoHeight: false,
+    autoplay: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      576: {
+        items: 2,
+      },
+      992: {
+        items: 2,
+      },
+      1200: {
+        items: 3,
+      }
+    }
+  });
+
+  /*------------------
+  product slider ends
+  /*------------------
+  /*------------------
+        Team Slider
+    --------------------*/
+  $(".categories-slider").owlCarousel({
+    loop: true,
+    margin: 20,
+    items: 3,
+    dots: false,
+    nav: true,
+    navText: ['<span class="arrow_carrot-left"></span>', '<span class="arrow_carrot-right"></span>'],
+    stagePadding: 120,
+    smartSpeed: 800,
+    autoHeight: false,
+    autoplay: true,
+    responsive: {
+      0: {
+        items: 1,
+        stagePadding: 0
+      },
+      768: {
+        items: 2,
+        stagePadding: 0
+      },
+      992: {
+        items: 2
+      },
+      1200: {
+        items: 3
+      }
+    }
+  });
+  // Testimonial Slider
+  $('.testimonial-slider').slick({
+    infinite: true,
+    autoplay: true,
+    arrows: false,
+    dots: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    asNavFor: '.testimonial-slider-nav'
+  });
+  $('.testimonial-slider-nav').slick({
+    arrows: false,
+    dots: false,
+    focusOnSelect: true,
+    centerMode: true,
+    centerPadding: '22px',
+    slidesToShow: 3,
+    asNavFor: '.testimonial-slider'
+  });
+  $('.testimonial .slider-nav').css({
+    "position": "relative",
+    "height": "160px"
+  });
 
 
+  /*------------------
+      Image Popup
+  --------------------*/
+  $('.image-popup').magnificPopup({
+    type: 'image'
+  });
+  /*------------------
+        Team Slider ends
+    --------------------*/
+
+  /* 7. data-background */
+  $("[data-background]").each(function () {
+    $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
+  });
+  // popoup video
+  var popUp = $('.popup-video');
+  if (popUp.length) {
+    popUp.magnificPopup({
+      type: 'iframe'
+    });
+  }
+  // $('.popup-video').magnificPopup({
+  //   callbacks: {
+  //     open: function () {
+  //       $('.navbar').hide();
+  //     }
+  //     close: function () {
+  //       $('.navbar').show();
+  //     }
+  //   }
+  // });
 
   // jjs
   var review = $('.player_info_item');
@@ -127,7 +268,21 @@
 
   //   });
 
+  // ganti bagian labor start
 
+  $('[data-switch]').on('click', function (e) {
+    var $page = $('#page-2'),
+      blockToShow = e.currentTarget.getAttribute('data-switch');
+
+    // Hide all children.
+    $page.children().hide();
+
+    // And show the requested component.
+    $page.children(blockToShow).show();
+  });
+
+
+  // ganti bagian labor ends
   $('.counter').counterUp({
     time: 2000
   });
