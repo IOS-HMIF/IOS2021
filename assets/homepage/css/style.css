@@ -34,11 +34,20 @@ html::-webkit-scrollbar-thumb:active {
 
 /* Scrollbar ends */
 .section-bg {
+  /*  */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
 }
+
+/* .bgHMIF {
+  background: url(../img/blog/bannerIF.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+} */
 
 /*---------------------
   Categories Section
@@ -718,6 +727,14 @@ html::-webkit-scrollbar-thumb:active {
     background-position: center center;
     background-attachment: fixed;
   } */
+  /* .bgHMIF {
+    background: url(../img/blog/bg_if_mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  } */
+
   /* bagian lab */
   #rpl .ti-angle-right {
     display: none !important;
@@ -6913,7 +6930,7 @@ ul {
 
   /* line 206, E:/172 Etrain Education/172_Etrain_Education_html/sass/_footer.scss */
   .footer-area .copyright_part_text p {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .footer-area .copyright_part_text {
