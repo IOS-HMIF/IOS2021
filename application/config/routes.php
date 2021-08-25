@@ -54,7 +54,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['homepage'] = 'Homepage';
-$route['informatics'] = 'Welcome';
+$route['informatics'] = 'Informatics';
 $route['himpunan'] = 'NotFound';
 $route['event'] = 'NotFound';
 $route['virtual'] = 'NotFound';

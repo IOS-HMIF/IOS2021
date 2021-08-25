@@ -58,7 +58,7 @@
       <div class="row align-items-center">
         <div class="col-lg-12">
           <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="homepage">
+            <a class="navbar-brand" href="index.html">
               <img class="nonemobile" src="<?=base_url('assets/homepage')?>/img/ios-logo-desktop.svg" alt="logo" style="height: 38px" />
               <img class="noneall" src="<?=base_url('assets/homepage')?>/img/blog/ios-logo-mobile.svg" alt="" style="margin-left: 16px" />
             </a>
@@ -81,7 +81,7 @@
                   <a class="nav-link" href="<?=base_url('himpunan')?>">Himpunan</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?=base_url('event')?>">Events</a>
+                  <a class="nav-link" href="<?=base_url('events')?>">Events</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="<?=base_url('virtual')?>">Virtual</a>
@@ -99,13 +99,13 @@
   <!-- Header part end-->
 
   <!-- banner part start-->
-  <section class="banner_part">
+  <section class="banner_home banner_part">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7 col-xl-7">
-          <div class="banner_text">
+          <div class=" banner_text">
             <div class="banner_text_iner">
-              <h1 class="wow fadeInUp" data-wow-delay="0.3s" style="line-height: 70px">
+              <h1 class="wow fadeInUp home_h1" data-wow-delay="0.3s" style="line-height: 70px">
                 Selamat Datang di,
                 <br />
                 Informatics Ongoing Story.
@@ -118,7 +118,8 @@
                 penting yang harus kamu ketahui sebelum memulai petualangan
                 kamu di Jurusan Informatika, Universitas Diponegoro.
               </p>
-              <a href="#select-chapter" class="btn_1 paddingbtn1 atasdikit wow fadeInUp" data-wow-delay="1.5s">Mulai
+              <a href="#select-chapter" class="btn_1 paddingbtn1 atasdikit wow fadeInUp"
+                data-wow-delay="1.5s">Mulai
               </a>
             </div>
           </div>
@@ -163,7 +164,7 @@
                   rounded-lg
                   p-3 p-md-2 p-lg-3 p-xl-5
                 " style="
-                  background: url(<?php echo base_url('assets/homepage')?>/img/blog/Chapter\ 1@2x.png);
+                  background: url(<?=base_url('assets/homepage')?>/img/blog/Chapter\ 1@2x.png);
                   background-size: cover;
                   padding-bottom: 150px !important;
                 ">
@@ -288,13 +289,13 @@
               mahasiswa baru agar kalian semua tetap uptodate.
             </p>
 
-            <a href="#" class="
+            <a class="
                   btn_1
                   atasdikit
                   wow
                   fadeInUp
                   mt-lg-4 mt-md-4 mt-sm-0 mt-xs-0
-                " data-wow-delay="1s">Salin Pesan
+                " data-wow-delay="1s" onclick="copyToClipboard()">Salin Pesan
             </a>
           </div>
         </div>
@@ -363,8 +364,6 @@
               <a href="http://line.me/ti/p/~@gsy5063l" target="_blank">Official Line</a>
               <br />
               <a href="https://twitter.com/HMIF_Undip" target="_blank">Twitter</a>
-              <br />
-              <a href="#">Tiktok</a>
             </div>
           </div>
         </div>
@@ -453,6 +452,14 @@
       });
     }
     document.addEventListener("scroll", handleScroll);
+
+    function copyToClipboard() {
+      var text = "Halo, yuk kunjungi website IoS untuk mengetahui berbagai macam informasi penting terkait dengan Informatika di https://hm.if.fsm.undip.ac.id/ios";
+
+      navigator.clipboard.writeText(text);
+      alert("Pesan berhasil disimpan ke clipboard");
+
+    }
   </script>
 </body>
 
