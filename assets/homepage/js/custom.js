@@ -1,5 +1,7 @@
 (function ($) {
   "use strict";
+
+
   /* 1. Proloder */
   $(window).on('load', function () {
     $('#preloader-active').delay(450).fadeOut('slow');
@@ -343,7 +345,95 @@
     }
   });
 
+  // :: 9.0 Progress Bar Active Code
+  if ($.fn.circleProgress) {
+    $('#circle').circleProgress({
+      size: 160,
+      emptyFill: "rgba(0, 0, 0, .0)",
+      fill: '#000000',
+      thickness: '3',
+      reverse: true
+    });
+    $('#circle2').circleProgress({
+      size: 160,
+      emptyFill: "rgba(0, 0, 0, .0)",
+      fill: '#000000',
+      thickness: '3',
+      reverse: true
+    });
+    $('#circle3').circleProgress({
+      size: 160,
+      emptyFill: "rgba(0, 0, 0, .0)",
+      fill: '#000000',
+      thickness: '3',
+      reverse: true
+    });
+    $('#circle4').circleProgress({
+      size: 160,
+      emptyFill: "rgba(0, 0, 0, .0)",
+      fill: '#000000',
+      thickness: '3',
+      reverse: true
+    });
+  }
 
+  // :: 10.0 audioPlayer Active Code
+  if ($.fn.audioPlayer) {
+    $('audio').audioPlayer();
+  }
+
+  // audio
+  /*------------------
+          Carousel Slider
+      --------------------*/
+  $(".logo-items").owlCarousel({
+    loop: true,
+    nav: false,
+    dots: false,
+    margin: 40,
+    autoplay: true,
+    responsive: {
+      0: {
+        items: 2
+      },
+      480: {
+        items: 2
+      },
+      768: {
+        items: 3
+      },
+      992: {
+        items: 5
+      }
+    }
+  });
+
+  // audio ends
+  var carousel = function () {
+    $('.carousel-testimony').owlCarousel({
+      autoplay: true,
+      center: true,
+      loop: true,
+      items: 1,
+      margin: 30,
+      stagePadding: 0,
+      nav: false,
+      navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 1
+        },
+        1000: {
+          items: 2
+        }
+      }
+    });
+
+  };
+  carousel();
 
 
 }(jQuery));
