@@ -12,40 +12,40 @@
     content="Informatics ongoing Story (IoS) menyediakan berbagai informasi penting yang harus kamu ketahui sebelum memulai petualangan kamu di Jurusan Informatika, Universitas Diponegoro."
     name="description" />
   <meta property="og:title" content="IOS | HMIF UNDIP 2021" />
-  <meta property="og:image" content="<?=base_url('assets/homepage')?>/assets/img/icon.png" />
+  <meta property="og:image" content="<?=base_url('assets/homepage')?>/img/icon.png" />
   <meta property="og:description"
     content="Informatics ongoing Story (IoS) menyediakan berbagai informasi penting yang harus kamu ketahui sebelum memulai petualangan kamu di Jurusan Informatika, Universitas Diponegoro." />
   <meta name="title" content="IOS | HMIF 2021" />
   <meta name="description"
     content="Informatics ongoing Story (IoS) menyediakan berbagai informasi penting yang harus kamu ketahui sebelum memulai petualangan kamu di Jurusan Informatika, Universitas Diponegoro." />
-  <link rel="icon" href="<?=base_url('assets/homepage')?>/assets/img/icon.png" />
+  <link rel="icon" href="<?=base_url('assets/homepage')?>/img/icon.png" />
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/css/bootstrap.min.css" />
   <!-- animate CSS -->
-  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/assets/css/animate.css" />
+  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/css/animate.css" />
   <!-- fontawesome -->
-  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/assets/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/css/font-awesome.min.css" />
   <!-- owl carousel CSS -->
-  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/assets/js/OwlCarousel2-2.2.1/owl.carousel.css" />
-  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/assets/js/OwlCarousel2-2.2.1/owl.theme.default.css" />
+  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/js/OwlCarousel2-2.2.1/owl.carousel.css" />
+  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/js/OwlCarousel2-2.2.1/owl.theme.default.css" />
   <!-- themify CSS -->
-  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/assets/css/themify-icons.css" />
+  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/css/themify-icons.css" />
   <!-- flaticon CSS -->
-  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/assets/css/flaticon.css" />
+  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/css/flaticon.css" />
   <!-- Icomoon CSS -->
-  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/assets/css/icomoon.css" />
+  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/css/icomoon.css" />
   <!-- font awesome CSS -->
-  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/assets/css/magnific-popup.css" />
+  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/css/magnific-popup.css" />
   <!-- swiper CSS -->
-  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/assets/css/slick.css" />
+  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/css/slick.css" />
   <!-- style CSS -->
-  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/assets/css/style.css" />
+  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/css/style.css" />
   <!-- elegant icon -->
-  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/assets/css/elegant-icons.css" />
+  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/css/elegant-icons.css" />
   <!-- audio player CSS -->
-  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/assets/css/audioplayer.css" />
+  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/css/audioplayer.css" />
   <!-- music icon -->
-  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/assets/css/one-music-icon.css" />
+  <link rel="stylesheet" href="<?=base_url('assets/homepage')?>/css/one-music-icon.css" />
   <link rel="stylesheet" href="<?=base_url('assets/node_modules')?>/@sweetalert2/themes/dark/dark.css">
 </head>
 
@@ -56,7 +56,7 @@
       <div class="preloader-inner position-relative">
         <div class="preloader-circle"></div>
         <div class="preloader-img pere-text">
-          <img src="<?=base_url('assets/homepage')?>/assets/img/icon.png" alt="" />
+          <img src="<?=base_url('assets/homepage')?>/img/icon.png" alt="" />
         </div>
       </div>
     </div>
@@ -69,9 +69,9 @@
         <div class="col-lg-12">
           <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="<?=base_url('assets/homepage')?>/index.html">
-              <img class="nonemobile" src="<?=base_url('assets/homepage')?>/assets/img/ios-logo-desktop.svg" alt="logo"
+              <img class="nonemobile" src="<?=base_url('assets/homepage')?>/img/ios-logo-desktop.svg" alt="logo"
                 style="height: 38px" />
-              <img class="noneall" src="<?=base_url('assets/homepage')?>/assets/img/blog/ios-logo-mobile.svg" alt=""
+              <img class="noneall" src="<?=base_url('assets/homepage')?>/img/blog/ios-logo-mobile.svg" alt=""
                 style="margin-left: 16px" />
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -87,19 +87,19 @@
                 " id="navbarSupportedContent">
               <ul class="navbar-nav align-items-center">
                 <li class="nav-item">
-                  <a class="nav-link" href="../informatics/index.html">Informatics</a>
+                  <a class="nav-link" href="<?=base_url('informatics')?>">Informatics</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Himpunan</a>
+                  <a class="nav-link" href="<?=base_url('himpunan')?>">Himpunan</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?=base_url('assets/homepage')?>/404.html">Events</a>
+                  <a class="nav-link" href="<?=base_url('event')?>">Events</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?=base_url('assets/homepage')?>/404.html">Virtual</a>
+                  <a class="nav-link" href="<?=base_url('virtual')?>">Virtual</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?=base_url('assets/homepage')?>/404.html">Information</a>
+                  <a class="nav-link" href="<?=base_url('information')?>">Information</a>
                 </li>
               </ul>
             </div>
@@ -146,7 +146,7 @@
   <!-- banner part start-->
   <!-- Search domain Start -->
   <section class=" search-domain-area section-bg pt-280 pb-65 wow fadeIn" id="slidekesini" data-wow-delay="0.1s"
-    data-background="<?=base_url('assets/homepage')?>/assets/img/blog/bannerHimpunan.png">
+    data-background="<?=base_url('assets/homepage')?>/img/blog/bannerHimpunan.png">
     <div class="container  ">
       <div class=" row align-items-end ">
         <div class="col-xl-8 ">
@@ -189,7 +189,7 @@
           </ol>
           <div class="carousel-inner col-sm-9 col-xl-11 text-center wow fadeInUp" data-wow-delay="0.6s">
             <div class="carousel-item active" style="background-color: #F4F4F5;">
-              <img src="<?=base_url('assets/homepage')?>/assets/img/blog/ch2-cerita1.png" alt="">
+              <img src="<?=base_url('assets/homepage')?>/img/blog/ch2-cerita1.png" alt="">
               <p class=" text-center" style="
                       font-family: 'Open Sans', sans-serif;
                       font-size: 16px;
@@ -207,7 +207,7 @@
                 Matematika Universitas Diponegoro.
             </div>
             <div class="carousel-item" style="background-color: #F4F4F5;">
-              <img src="<?=base_url('assets/homepage')?>/assets/img/blog/ch2-cerita2.png" alt="">
+              <img src="<?=base_url('assets/homepage')?>/img/blog/ch2-cerita2.png" alt="">
               <p class=" text-center" style="
                       font-family: 'Open Sans', sans-serif;
                       font-size: 16px;
@@ -226,7 +226,7 @@
                 terpilih sebagai Ketua Umum dari HIMAKOM Undip periode 2006 - 2007.
             </div>
             <div class="carousel-item" style="background-color: #F4F4F5;">
-              <img src="<?=base_url('assets/homepage')?>/assets/img/blog/ch2-cerita3.png" alt="">
+              <img src="<?=base_url('assets/homepage')?>/img/blog/ch2-cerita3.png" alt="">
               <p class=" text-center" style="
                       font-family: 'Open Sans', sans-serif;
                       font-size: 16px;
@@ -301,7 +301,7 @@
         <div class="col-lg-12 col-md-6 wow fadeInUp" style="margin-bottom: -30px;" data-wow-delay="0.6s">
           <div class="pricing-item">
 
-            <img src="<?=base_url('assets/homepage')?>/assets/img/blog/Logo_HMIF.png">
+            <img src="<?=base_url('assets/homepage')?>/img/blog/Logo_HMIF.png">
           </div>
         </div>
       </div>
@@ -311,7 +311,7 @@
           <div class="chooseus-features">
             <div class="cf-item wow fadeInUp" data-wow-delay="0.8s" style="background-color: #2978F8;">
               <div class="cf-pic">
-                <img src="<?=base_url('assets/homepage')?>/assets/img/icon/lingkaran.png" alt="">
+                <img src="<?=base_url('assets/homepage')?>/img/icon/lingkaran.png" alt="">
               </div>
               <div class="cf-text" style="text-align: left;">
                 <h5>Lingkaran Kuning</h5>
@@ -320,7 +320,7 @@
             </div>
             <div class="cf-item wow fadeInUp" data-wow-delay="1s" style=" background-color: #2978F8;">
               <div class="cf-pic">
-                <img src="<?=base_url('assets/homepage')?>/assets/img/icon/lingakaranBiru.png" alt="">
+                <img src="<?=base_url('assets/homepage')?>/img/icon/lingakaranBiru.png" alt="">
               </div>
               <div class="cf-text" style="text-align: left;">
                 <h5>Warna Biru</h5>
@@ -329,7 +329,7 @@
             </div>
             <div class="cf-item wow fadeInUp" data-wow-delay="1.2s" style="background-color: #2978F8;">
               <div class="cf-pic">
-                <img src="<?=base_url('assets/homepage')?>/assets/img/icon/tigapita.png" alt="">
+                <img src="<?=base_url('assets/homepage')?>/img/icon/tigapita.png" alt="">
               </div>
               <div class="cf-text" style="text-align: left;">
                 <h5>Tiga Helai Pita</h5>
@@ -338,7 +338,7 @@
             </div>
             <div class="cf-item wow fadeInUp" data-wow-delay="1.4s" style="background-color: #2978F8;">
               <div class="cf-pic">
-                <img src="<?=base_url('assets/homepage')?>/assets/img/icon/teksdilogo.png" alt="">
+                <img src="<?=base_url('assets/homepage')?>/img/icon/teksdilogo.png" alt="">
               </div>
               <div class="cf-text" style="text-align: left;">
                 <h5>Teks Universitas Diponegoro</h5>
@@ -347,7 +347,7 @@
             </div>
             <div class="cf-item wow fadeInUp" data-wow-delay="1.6s" style="background-color: #2978F8;">
               <div class="cf-pic">
-                <img src="<?=base_url('assets/homepage')?>/assets/img/icon/empathuruf.png" alt="">
+                <img src="<?=base_url('assets/homepage')?>/img/icon/empathuruf.png" alt="">
               </div>
               <div class="cf-text" style="text-align: left;">
                 <h5>Empat Huruf HMIF</h5>
@@ -356,7 +356,7 @@
             </div>
             <div class="cf-item wow fadeInUp" data-wow-delay="1.8s" style="background-color: #2978F8;">
               <div class="cf-pic">
-                <img src="<?=base_url('assets/homepage')?>/assets/img/icon/hmif.png" alt="">
+                <img src="<?=base_url('assets/homepage')?>/img/icon/hmif.png" alt="">
               </div>
               <div class="cf-text" style="text-align: left;">
                 <h5>Logo Borderless</h5>
@@ -399,14 +399,14 @@
                 <div class="front">
                   <div class="card">
                     <div class="card-body text-center pb-2" ,
-                      style="background-image: url(<?=base_url('assets/homepage')?>/assets/img/blog/kesatuan.png); background-size: cover; background-position-x: -8px;height: 363px; width: 260px;">
+                      style="background-image: url(<?=base_url('assets/homepage')?>/img/blog/kesatuan.png); background-size: cover; background-position-x: -8px;height: 363px; width: 260px;">
                     </div>
                   </div>
                 </div>
                 <div class="back rounded">
                   <div class="card">
                     <div class="card-body text-center" ,
-                      style="background-image: url(<?=base_url('assets/homepage')?>/assets/img/blog/kesatuan2.png); background-size: cover; background-position-x: -8px;height: 363px; width: 260px;">
+                      style="background-image: url(<?=base_url('assets/homepage')?>/img/blog/kesatuan2.png); background-size: cover; background-position-x: -8px;height: 363px; width: 260px;">
                     </div>
                   </div>
                 </div>
@@ -419,7 +419,7 @@
                 <div class="front">
                   <div class="card">
                     <div class="card-body text-center pb-2 " ,
-                      style="background-image: url(<?=base_url('assets/homepage')?>/assets/img/blog/setara.png); background-size: cover; background-position-x: -8px;height: 363px; width: 260px;">
+                      style="background-image: url(<?=base_url('assets/homepage')?>/img/blog/setara.png); background-size: cover; background-position-x: -8px;height: 363px; width: 260px;">
 
                     </div>
                   </div>
@@ -427,7 +427,7 @@
                 <div class="back rounded">
                   <div class="card">
                     <div class="card-body text-center" ,
-                      style="background-image: url(<?=base_url('assets/homepage')?>/assets/img/blog/setara2.png); background-size: cover; background-position-x: -8px;height: 363px; width: 260px;">
+                      style="background-image: url(<?=base_url('assets/homepage')?>/img/blog/setara2.png); background-size: cover; background-position-x: -8px;height: 363px; width: 260px;">
 
                     </div>
                   </div>
@@ -441,7 +441,7 @@
                 <div class="front">
                   <div class="card">
                     <div class="card-body text-center pb-2" ,
-                      style="background-image: url(<?=base_url('assets/homepage')?>/assets/img/blog/solid.png); background-size: cover; background-position-x: -8px;height: 363px; width: 260px;">
+                      style="background-image: url(<?=base_url('assets/homepage')?>/img/blog/solid.png); background-size: cover; background-position-x: -8px;height: 363px; width: 260px;">
 
                     </div>
                   </div>
@@ -449,7 +449,7 @@
                 <div class="back rounded">
                   <div class="card">
                     <div class="card-body text-center" ,
-                      style="background-image: url(<?=base_url('assets/homepage')?>/assets/img/blog/solid2.png); background-size: cover; background-position-x: -8px;height: 363px; width: 260px;">
+                      style="background-image: url(<?=base_url('assets/homepage')?>/img/blog/solid2.png); background-size: cover; background-position-x: -8px;height: 363px; width: 260px;">
 
                     </div>
                   </div>
@@ -463,7 +463,7 @@
                 <div class="front">
                   <div class="card">
                     <div class="card-body text-center pb-2" ,
-                      style="background-image: url(<?=base_url('assets/homepage')?>/assets/img/blog/loyal.png); background-size: cover; background-position-x: -8px;height: 363px; width: 260px;">
+                      style="background-image: url(<?=base_url('assets/homepage')?>/img/blog/loyal.png); background-size: cover; background-position-x: -8px;height: 363px; width: 260px;">
 
                     </div>
                   </div>
@@ -471,7 +471,7 @@
                 <div class="back rounded">
                   <div class="card">
                     <div class="card-body text-center" ,
-                      style="background-image: url(<?=base_url('assets/homepage')?>/assets/img/blog/loyal2.png); background-size: cover; background-position-x: -8px;height: 363px; width: 260px;">
+                      style="background-image: url(<?=base_url('assets/homepage')?>/img/blog/loyal2.png); background-size: cover; background-position-x: -8px;height: 363px; width: 260px;">
 
                     </div>
                   </div>
@@ -513,12 +513,12 @@
   </section>
   <!-- Search domain Start -->
   <section class=" search-domain-area section-bg featured-artist-area pt-190 pb-65 wow fadeIn" data-wow-delay="0.1s"
-    data-background="<?=base_url('assets/homepage')?>/assets/img/blog/bg-music.jpg">
+    data-background="<?=base_url('assets/homepage')?>/img/blog/bg-music.jpg">
     <div class="container section-padding-100 bg-img bg-overlay bg-fixed">
       <div class="row align-items-end">
         <div class="col-12 col-md-5 col-lg-4">
           <div class="featured-artist-thumb" style="margin-bottom: 50px;">
-            <img src="<?=base_url('assets/homepage')?>/assets/img/blog/bg-music2.png" alt="">
+            <img src="<?=base_url('assets/homepage')?>/img/blog/bg-music2.png" alt="">
           </div>
         </div>
         <div class="col-12 col-md-7 col-lg-8">
@@ -534,7 +534,7 @@
                 <p>01. Mars Informatika Undip - Semangat Juang</p>
               </div>
               <audio preload="auto" controls>
-                <source src="<?=base_url('assets/homepage')?>/assets/audio/MarsInformatikaUndip-SemangatJuang.mp3">
+                <source src="<?=base_url('assets/homepage')?>/audio/MarsInformatikaUndip-SemangatJuang.mp3">
               </audio>
               <!-- modal -->
 
@@ -542,14 +542,14 @@
             </div>
             <template id="my-template">
 
-              <swal-image src="<?=base_url('assets/homepage')?>/assets/img/blog/lirik1.png" width="400" height="450" alt="lirik1" />
+              <swal-image src="<?=base_url('assets/homepage')?>/img/blog/lirik1.png" width="400" height="450" alt="lirik1" />
 
               <swal-param name="allowEscapeKey" value="false" />
               <swal-param name="customClass" value='{ "popup": "my-popup" }' />
             </template>
             <template id="my-template2">
 
-              <swal-image src="<?=base_url('assets/homepage')?>/assets/img/blog/lirik2.png" width="400" height="450" alt="lirik1" />
+              <swal-image src="<?=base_url('assets/homepage')?>/img/blog/lirik2.png" width="400" height="450" alt="lirik1" />
 
               <swal-param name="allowEscapeKey" value="false" />
               <swal-param name="customClass" value='{ "popup": "my-popup" }' />
@@ -562,7 +562,7 @@
               </div>
               <div class="col-lg-10 col-md-3 col-sm-2 col-6">
                 <button class="btn btn-danger mt-3 mb-3">
-                  <a href="<?=base_url('assets/homepage')?>/assets/audio/MarsInformatikaUndip-SemangatJuang.mp3" download
+                  <a href="<?=base_url('assets/homepage')?>/audio/MarsInformatikaUndip-SemangatJuang.mp3" download
                     rel="noopener noreferrer" target="_blank" style="color: white;">Unduh</a>
                 </button>
               </div>
@@ -574,7 +574,7 @@
                 <p>02. IF Choir - Langkah Bersama</p>
               </div>
               <audio preload="auto" controls>
-                <source src="<?=base_url('assets/homepage')?>/assets/audio/IFChoir-LangkahBersama.mp3">
+                <source src="<?=base_url('assets/homepage')?>/audio/IFChoir-LangkahBersama.mp3">
               </audio>
             </div>
             <div class="row justify-content-start">
@@ -585,7 +585,7 @@
               </div>
               <div class="col-lg-10 col-md-3 col-sm-2 col-6">
                 <button class="btn btn-danger mt-3 mb-3">
-                  <a href="<?=base_url('assets/homepage')?>/assets/audio/IFChoir-LangkahBersama.mp3" download rel="noopener noreferrer"
+                  <a href="<?=base_url('assets/homepage')?>/audio/IFChoir-LangkahBersama.mp3" download rel="noopener noreferrer"
                     target="_blank" style="color: white;">Unduh</a>
                 </button>
               </div>
@@ -624,7 +624,7 @@
         <div class="col-lg-12 col-md-6 wow fadeInUp " style="margin-bottom: -30px;" data-wow-delay="0.6s">
           <div class="pricing-item pasBG" style="padding-bottom: 0px;">
 
-            <img src="<?=base_url('assets/homepage')?>/assets/img/blog/bgKompas.png">
+            <img src="<?=base_url('assets/homepage')?>/img/blog/bgKompas.png">
           </div>
         </div>
       </div>
@@ -749,7 +749,7 @@
       </div>
       <div class="row text-center justify-content-center align-items-center ">
         <div class="col-lg-12 col-md-6 wow fadeInUp" style="margin-bottom: -30px;" data-wow-delay="0.6s">
-          <img src="<?=base_url('assets/homepage')?>/assets/img/blog/Struktur.png">
+          <img src="<?=base_url('assets/homepage')?>/img/blog/Struktur.png">
         </div>
       </div>
     </div>
@@ -758,35 +758,35 @@
       <div class="logo-items owl-carousel">
         <div class="logo-item">
           <a href="https://hm.if.fsm.undip.ac.id/divisi/read/ph" target="_blank"></a>
-          <img src="<?=base_url('assets/homepage')?>/assets/img/logoDivisi/LogoKabinet.png" alt="">
+          <img src="<?=base_url('assets/homepage')?>/img/logoDivisi/LogoKabinet.png" alt="">
         </div>
         <div class="logo-item">
           <a href="https://hm.if.fsm.undip.ac.id/divisi/read/kominfo" target="_blank"> <img
-              src="<?=base_url('assets/homepage')?>/assets/img/logoDivisi/Kominfo.png" alt=""></a>
+              src="<?=base_url('assets/homepage')?>/img/logoDivisi/Kominfo.png" alt=""></a>
         </div>
         <div class="logo-item">
           <a href="https://hm.if.fsm.undip.ac.id/divisi/read/litbang" target="_blank"><img
-              src="<?=base_url('assets/homepage')?>/assets/img/logoDivisi/Litbang.png" alt=""></a>
+              src="<?=base_url('assets/homepage')?>/img/logoDivisi/Litbang.png" alt=""></a>
         </div>
         <div class="logo-item">
           <a href="https://hm.if.fsm.undip.ac.id/divisi/read/psdm" target="_blank"><img
-              src="<?=base_url('assets/homepage')?>/assets/img/logoDivisi/PSDM.png" alt=""></a>
+              src="<?=base_url('assets/homepage')?>/img/logoDivisi/PSDM.png" alt=""></a>
         </div>
         <div class="logo-item">
           <a href="https://hm.if.fsm.undip.ac.id/divisi/read/ekokeu" target="_blank"> <img
-              src="<?=base_url('assets/homepage')?>/assets/img/logoDivisi/Ekokeu.png" alt=""></a>
+              src="<?=base_url('assets/homepage')?>/img/logoDivisi/Ekokeu.png" alt=""></a>
         </div>
         <div class="logo-item">
           <a href="https://hm.if.fsm.undip.ac.id/divisi/read/diklat" target="_blank"> <img
-              src="<?=base_url('assets/homepage')?>/assets/img/logoDivisi/Diklat.png" alt=""></a>
+              src="<?=base_url('assets/homepage')?>/img/logoDivisi/Diklat.png" alt=""></a>
         </div>
         <div class="logo-item">
           <a href="https://hm.if.fsm.undip.ac.id/divisi/read/seniora" target="_blank"> <img
-              src="<?=base_url('assets/homepage')?>/assets/img/logoDivisi/Seniora.png" alt=""></a>
+              src="<?=base_url('assets/homepage')?>/img/logoDivisi/Seniora.png" alt=""></a>
         </div>
         <div class="logo-item">
           <a href="https://hm.if.fsm.undip.ac.id/divisi/read/sosial" target="_blank"> <img
-              src="<?=base_url('assets/homepage')?>/assets/img/logoDivisi/Sosial.png" alt=""></a>
+              src="<?=base_url('assets/homepage')?>/img/logoDivisi/Sosial.png" alt=""></a>
         </div>
       </div>
     </div>
@@ -831,7 +831,7 @@
           <div class="col-lg-4 col-md-6 col-sm-6 col-6  wow fadeInRight" data-wow-delay="0.8s">
             <div class="single-team mb-30">
               <div class="team-img">
-                <img src="<?=base_url('assets/homepage')?>/assets/img/blog/virsel.png" alt="">
+                <img src="<?=base_url('assets/homepage')?>/img/blog/virsel.png" alt="">
                 <!-- Blog Social -->
                 <ul class="team-social">
                   <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -848,7 +848,7 @@
           <div class="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInLeft" data-wow-delay="0.9s">
             <div class="single-team mb-30">
               <div class="team-img">
-                <img src="<?=base_url('assets/homepage')?>/assets/img/blog/joy.png" alt="">
+                <img src="<?=base_url('assets/homepage')?>/img/blog/joy.png" alt="">
                 <!-- Blog Social -->
                 <ul class="team-social">
                   <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -876,7 +876,7 @@
           <div class="carousel-testimony owl-carousel">
             <div class="item">
               <div class="testimony-wrap d-flex">
-                <div class="user-img" style="background-image: url(<?=base_url('assets/homepage')?>/assets/img/blog/testi-1.png)">
+                <div class="user-img" style="background-image: url(<?=base_url('assets/homepage')?>/img/blog/testi-1.png)">
                 </div>
                 <div class="text pl-4">
                   <span class="quote d-flex align-items-center justify-content-center">
@@ -895,7 +895,7 @@
             </div>
             <div class="item">
               <div class="testimony-wrap d-flex">
-                <div class="user-img" style="background-image: url(<?=base_url('assets/homepage')?>/assets/img/blog/testi-2.png)">
+                <div class="user-img" style="background-image: url(<?=base_url('assets/homepage')?>/img/blog/testi-2.png)">
                 </div>
                 <div class="text pl-4">
                   <span class="quote d-flex align-items-center justify-content-center">
@@ -912,7 +912,7 @@
             </div>
             <div class="item">
               <div class="testimony-wrap d-flex">
-                <div class="user-img" style="background-image: url(<?=base_url('assets/homepage')?>/assets/img/blog/testi-3.png)">
+                <div class="user-img" style="background-image: url(<?=base_url('assets/homepage')?>/img/blog/testi-3.png)">
                 </div>
                 <div class="text pl-4">
                   <span class="quote d-flex align-items-center justify-content-center">
@@ -978,7 +978,7 @@
             <div class="container px-0" style="background-color: #F4F4F5; height: 200vh;">
               <div class="d-flex atasan flex-row w-100"
                 style="background-color: #02B6FF; border-radius: 5px; height:20;">
-                <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/ph/ph_logo2.png" alt="">
+                <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/ph/ph_logo2.png" alt="">
                 <div class="px-4 my-auto fw-bold"
                   style="color: #FFFFFF !important; font-family: 'Poppins', sans-serif;">
                   <h4>Pengurus <br> Harian (PH)</h4>
@@ -986,7 +986,7 @@
               </div>
               <div class="mx-5 detailnya">
                 <div class="my-4">
-                  <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/ph/ph_banner.png" class="mx-auto d-block" alt=""
+                  <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/ph/ph_banner.png" class="mx-auto d-block" alt=""
                     style="
                                   width: 100%;
                                   max-width: 100%;
@@ -1043,7 +1043,7 @@
           <div class="carousel-item">
             <div class="container px-0" style="background-color: #F4F4F5; height: 200vh;">
               <div class="d-flex atasan flex-row" style="background-color: #0F7877; border-radius: 5px; height:20;">
-                <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/litbang/litbang_logo.png" alt="">
+                <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/litbang/litbang_logo.png" alt="">
                 <div class="px-4 my-auto fw-bold"
                   style="color: #FFFFFF !important; font-family: 'Poppins', sans-serif;">
                   <h4>Staf Ahli <br> Penelitian dan Pengembangan (Litbang)</h4>
@@ -1051,7 +1051,7 @@
               </div>
               <div class="mx-5 detailnya">
                 <div class="my-4">
-                  <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/litbang/litbang_banner.png" class="mx-auto d-block"
+                  <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/litbang/litbang_banner.png" class="mx-auto d-block"
                     alt="" style="
                                   width: 100%;
                                   max-width: 100%;
@@ -1110,7 +1110,7 @@
           <div class="carousel-item">
             <div class="container px-0" style="background-color: #F4F4F5; height: 200vh;">
               <div class="d-flex atasan flex-row" style="background-color: #346199; border-radius: 5px; height:20;">
-                <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/kominfo/kominfo_logo.png" alt="">
+                <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/kominfo/kominfo_logo.png" alt="">
                 <div class="px-4 my-auto fw-bold"
                   style="color: #FFFFFF !important; font-family: 'Poppins', sans-serif;">
                   <h4>Staf Ahli <br>
@@ -1119,7 +1119,7 @@
               </div>
               <div class="mx-5 detailnya">
                 <div class="my-4">
-                  <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/kominfo/kominfo_banner.png" class="mx-auto d-block"
+                  <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/kominfo/kominfo_banner.png" class="mx-auto d-block"
                     alt="" style="
                                   width: 100%;
                                   max-width: 100%;
@@ -1188,7 +1188,7 @@
           <div class="carousel-item">
             <div class="container px-0" style="background-color: #F4F4F5; height: 200vh;">
               <div class="d-flex atasan flex-row" style="background-color: #40A4CE; border-radius: 5px; height:20;">
-                <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/diklat/diklat_logo.png" alt="">
+                <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/diklat/diklat_logo.png" alt="">
                 <div class="px-4 my-auto fw-bold"
                   style="color: #FFFFFF !important; font-family: 'Poppins', sans-serif;">
                   <h4>Divisi <br>
@@ -1197,7 +1197,7 @@
               </div>
               <div class="mx-5 detailnya">
                 <div class="my-4">
-                  <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/diklat/diklat_banner.png" class="mx-auto d-block"
+                  <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/diklat/diklat_banner.png" class="mx-auto d-block"
                     alt="" style="
                                   width: 100%;
                                   max-width: 100%;
@@ -1252,7 +1252,7 @@
           <div class="carousel-item">
             <div class="container px-0" style="background-color: #F4F4F5; height: 200vh;">
               <div class="d-flex atasan flex-row" style="background-color: #ED464A; border-radius: 5px; height:20;">
-                <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/psdm/psdm_logo.png" alt="">
+                <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/psdm/psdm_logo.png" alt="">
                 <div class="px-4 my-auto fw-bold"
                   style="color: #FFFFFF !important; font-family: 'Poppins', sans-serif;">
                   <h4>Divisi <br>
@@ -1261,7 +1261,7 @@
               </div>
               <div class="mx-5 detailnya">
                 <div class="my-4">
-                  <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/psdm/psdm_banner.png" class="mx-auto d-block" alt=""
+                  <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/psdm/psdm_banner.png" class="mx-auto d-block" alt=""
                     style="
                                   width: 100%;
                                   max-width: 100%;
@@ -1318,7 +1318,7 @@
           <div class="carousel-item">
             <div class="container px-0" style="background-color: #F4F4F5; height: 200vh;">
               <div class="d-flex atasan flex-row" style="background-color: #FDA223; border-radius: 5px; height: 20vh;">
-                <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/sosial/sosial_logo.png" alt="">
+                <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/sosial/sosial_logo.png" alt="">
                 <div class="px-4 my-auto fw-bold"
                   style="color: #FFFFFF !important; font-family: 'Poppins', sans-serif;">
                   <h4>Divisi <br>
@@ -1327,7 +1327,7 @@
               </div>
               <div class="mx-5 detailnya">
                 <div class="my-4">
-                  <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/sosial/sosial_banner.png" class="mx-auto d-block"
+                  <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/sosial/sosial_banner.png" class="mx-auto d-block"
                     alt="" style="
                                   width: 100%;
                                   max-width: 100%;
@@ -1383,7 +1383,7 @@
           <div class="carousel-item">
             <div class="container px-0" style="background-color: #F4F4F5; height: 200vh;">
               <div class="d-flex atasan flex-row" style="background-color: #B7DD56; border-radius: 5px; height:20;">
-                <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/ekokeu/ekokeu_logo.png" alt="">
+                <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/ekokeu/ekokeu_logo.png" alt="">
                 <div class="px-4 my-auto fw-bold"
                   style="color: #FFFFFF !important; font-family: 'Poppins', sans-serif;">
                   <h4>Divisi <br>
@@ -1392,7 +1392,7 @@
               </div>
               <div class="mx-5 detailnya">
                 <div class="my-4">
-                  <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/ekokeu/ekokeu_banner.png" class="mx-auto d-block"
+                  <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/ekokeu/ekokeu_banner.png" class="mx-auto d-block"
                     alt="" style="
                                   width: 100%;
                                   max-width: 100%;
@@ -1450,7 +1450,7 @@
           <div class="carousel-item">
             <div class="container px-0" style="background-color: #F4F4F5;height: 200vh;">
               <div class="d-flex atasan flex-row" style="background-color: #F2745A; border-radius: 5px; height:20;">
-                <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/seniora/seniora_logo.png" alt="">
+                <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/seniora/seniora_logo.png" alt="">
                 <div class="px-4 my-auto fw-bold"
                   style="color: #FFFFFF !important; font-family: 'Poppins', sans-serif;">
                   <h4>Divisi <br>
@@ -1459,7 +1459,7 @@
               </div>
               <div class="mx-5 detailnya">
                 <div class="my-4">
-                  <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/seniora/seniora_banner.png" class="mx-auto d-block"
+                  <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/seniora/seniora_banner.png" class="mx-auto d-block"
                     alt="" style="
                                   width: 100%;
                                   max-width: 100%;
@@ -1566,7 +1566,7 @@
       <div style="margin: 0rem 5rem;">
         <div class="row pt-5 align-items-center wow fadeInLeft" data-wow-delay="0.5s">
           <div class=" col-lg-3">
-            <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/biro/biro_irich.png" alt="" style="
+            <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/biro/biro_irich.png" alt="" style="
                   width: 100%;
                   max-width: 100%;
                   height: auto;">
@@ -1598,7 +1598,7 @@
 
         <div class="row pt-5 align-items-center wow fadeInRight" data-wow-delay="0.5s">
           <div class=" col-lg-3 ">
-            <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/biro/biro_digit.png" alt="" style="
+            <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/biro/biro_digit.png" alt="" style="
                   width: 100%;
                   max-width: 100%;
                   height: auto;">
@@ -1628,7 +1628,7 @@
 
         <div class="row pt-5 align-items-center wow fadeInLeft" data-wow-delay="0.5s">
           <div class=" col-lg-3 ">
-            <img src="<?=base_url('assets/homepage')?>/assets/img/badan_pengurus/biro/biro_ifthen.png" alt="" style="
+            <img src="<?=base_url('assets/homepage')?>/img/badan_pengurus/biro/biro_ifthen.png" alt="" style="
                   width: 100%;
                   max-width: 100%;
                   height: auto;">
@@ -1680,7 +1680,7 @@
               kirimobile
             " style="margin-left: 50px">
           <div class="learning_img wow fadeInLeft" data-wow-delay="0.5s">
-            <img src="<?=base_url('assets/homepage')?>/assets/img/blog/about-3.svg" class="nonepad" alt="logo-banner">
+            <img src="<?=base_url('assets/homepage')?>/img/blog/about-3.svg" class="nonepad" alt="logo-banner">
           </div>
         </div>
         <div class="
@@ -1732,7 +1732,7 @@
         <div class="col-sm-6 col-md-2 col-xl-3 col-lg-2">
           <div class="single-footer-widget footer_1">
             <a href="https://hm.if.fsm.undip.ac.id/">
-              <img src="<?=base_url('assets/homepage')?>/assets/img/blog/logo.png" alt="" />
+              <img src="<?=base_url('assets/homepage')?>/img/blog/logo.png" alt="" />
             </a>
           </div>
         </div>
@@ -1824,34 +1824,34 @@
   </button>
   <!-- jquery plugins here-->
   <!-- jquery -->
-  <script src="<?=base_url('assets/homepage')?>/assets/js/jquery-3.2.1.min.js"></script>
+  <script src="<?=base_url('assets/homepage')?>/js/jquery-3.2.1.min.js"></script>
   <!-- popper js -->
-  <script src="<?=base_url('assets/homepage')?>/assets/js/popper.min.js"></script>
+  <script src="<?=base_url('assets/homepage')?>/js/popper.min.js"></script>
   <!-- bootstrap js -->
-  <script src="<?=base_url('assets/homepage')?>/assets/js/bootstrap.min.js"></script>
+  <script src="<?=base_url('assets/homepage')?>/js/bootstrap.min.js"></script>
   <!-- easing js -->
-  <script src="<?=base_url('assets/homepage')?>/assets/js/jquery.magnific-popup.js"></script>
+  <script src="<?=base_url('assets/homepage')?>/js/jquery.magnific-popup.js"></script>
   <!-- swiper js -->
-  <script src="<?=base_url('assets/homepage')?>/assets/js/swiper.min.js"></script>
+  <script src="<?=base_url('assets/homepage')?>/js/swiper.min.js"></script>
   <!-- swiper js -->
-  <script src="<?=base_url('assets/homepage')?>/assets/js/masonry.pkgd.js"></script>
+  <script src="<?=base_url('assets/homepage')?>/js/masonry.pkgd.js"></script>
   <!-- particles js -->
-  <script src="<?=base_url('assets/homepage')?>/assets/js/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-  <script src="<?=base_url('assets/homepage')?>/assets/js/jquery.nice-select.min.js"></script>
+  <script src="<?=base_url('assets/homepage')?>/js/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+  <script src="<?=base_url('assets/homepage')?>/js/jquery.nice-select.min.js"></script>
   <!-- swiper js -->
-  <script src="<?=base_url('assets/homepage')?>/assets/js/slick.min.js"></script>
-  <script src="<?=base_url('assets/homepage')?>/assets/js/jquery.counterup.min.js"></script>
-  <script src="<?=base_url('assets/homepage')?>/assets/js/waypoints.min.js"></script>
+  <script src="<?=base_url('assets/homepage')?>/js/slick.min.js"></script>
+  <script src="<?=base_url('assets/homepage')?>/js/jquery.counterup.min.js"></script>
+  <script src="<?=base_url('assets/homepage')?>/js/waypoints.min.js"></script>
   <!-- wow -->
-  <script src="<?=base_url('assets/homepage')?>/assets/js/wow/wow.min.js"></script>
+  <script src="<?=base_url('assets/homepage')?>/js/wow/wow.min.js"></script>
   <!-- scrollmagic -->
-  <script src="<?=base_url('assets/homepage')?>/assets/js/scrollmagic/ScrollMagic.min.js"></script>
+  <script src="<?=base_url('assets/homepage')?>/js/scrollmagic/ScrollMagic.min.js"></script>
   <!-- jPlayer -->
-  <script src="<?=base_url('assets/homepage')?>/assets/js/jPlayer/pluginss.js"></script>
-  <script src="<?=base_url('assets/homepage')?>/assets/js/sweetalert2/dist/sweetalert2.all.min.js"></script>
+  <script src="<?=base_url('assets/homepage')?>/js/jPlayer/pluginss.js"></script>
+  <script src="<?=base_url('assets/homepage')?>/js/sweetalert2/dist/sweetalert2.all.min.js"></script>
 
   <!-- custom js -->
-  <script src="<?=base_url('assets/homepage')?>/assets/js/custom.js"></script>
+  <script src="<?=base_url('assets/homepage')?>/js/custom.js"></script>
   <script>
     //Get the button
     var mybutton = document.getElementById("myBtn");

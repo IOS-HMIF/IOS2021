@@ -81,7 +81,7 @@
                   <a class="nav-link" href="<?=base_url('himpunan')?>">Himpunan</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?=base_url('events')?>">Events</a>
+                  <a class="nav-link" href="<?=base_url('event')?>">Events</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="<?=base_url('virtual')?>">Virtual</a>
